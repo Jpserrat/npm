@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.navbar {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 10px 20px;
+  height: 20px;
+  text-align: center;
+}
+  
+.navbar a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.navbar .left {
+  float: left;
+}
+.links li {
+  display: inline;
+  float: right;
+  padding-left: 15px;
+}
+
+.header {
+  color:white;
+  background-color: #1D4E69;
+  background-image: url(images/city-scape.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.headerbar {
+  padding: 20px;
+}
+
+.headerbar-logo {
+  float: left;
+  width: 10%;
+}
+
+.headerbar-logo img {
+  height: 50px;
+}
+
+.headerbar-input {
+  float: left;
+  margin-left: 2%;
+  width: 70%;
+  margin:0 0 0 1%;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 5px 0px 5px 15px;
+  height: 32px;
+  font-size:1em;
+  background-color: rgb(31, 82, 111);
+  letter-spacing: 0.5px; 
+}
+
+.headerbar-btn {
+  border: 1px solid rgba(255, 255, 255, 0.2);;
+  color: rgba(255, 255, 255, 0.8);
+  height: 44px;
+  width: 40px;
+  background-color: transparent;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  float:left;
+}
+
+.headerbar-btn img {
+  height: 16px;
+}
+
+.headerbar-ul {
+  float: left;
+  width: 10%;
+  padding-top: 10px;
+  margin-left: 10px;;
+  margin-right: 0;
+}
+
+.headerbar-ul li {
+  display: inline;
+  letter-spacing: 0.5px;
+  margin-right: 0;
+  padding-right: 0; 
+}
+
+.headerbar-ul a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+}
+
+.headerbar-bear img {
+  float: right;
+  width: 40px;
+  height: 40px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.headerbody {
+  margin: 0% 10% 20% 10%;
+  padding-top: 0;
+  text-align: left;
+}
+
+.headerbody .text {
+  padding-bottom: 20px;
+}
+
+.headerbody .btn {
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  color: white;
+  padding: 7px 26px;
+  border: 1px;
+  border-radius: 20px;
+  font-size: 18px;
+  display: block;
+  width: 136px;
+  text-align: center;
+}
+
+.signup {
+  color:white;
+  background-color: #273547;
+  height: 550px;
+}
+
+.signup .img {
+  width: 40%;
+  float: left;
+  margin: 5% 10% 10% 10%;
+}
+
+.signup .text {
+  margin-top: 5%;
+  float: left;
+}
+
+.signup .title {
+  text-align: left;
+  line-height: normal;
+}
+
+.signup .ul {
+  padding-top: 4%;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.signup .btn {
+  background-color: rgb(203, 56, 55);;
+  text-decoration: none;
+  padding-top: 5px;
+  color: white;
+  padding: 7px 26px;
+  border: 1px;
+  border-radius: 20px;
+  font-size: 18px;
+  display: block;
+  width: 136px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.signup .after-btn {
+  margin-left: 10px;
+}
+
+.signup a {
+  text-decoration: none;
+  color: white;
+}
+
+.install {
+  color:white;
+  background-color: #206F9C;
+  background-image: url(images/forklift.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.install .body {
+  margin: 5% 10% 10% 10%;
+}
+
+.install .title {
+  padding-bottom: 10px;
+}
+
+.install .btn {
+  background-color: #34495e;
+  text-decoration: none;
+  padding-top: 5px;
+  color: white;
+  padding: 7px 26px;
+  border: 1px;
+  border-radius: 20px;
+  font-size: 18px;
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.make {
+  height: 550px;
+  text-align: center;
+}
+
+.make .title {
+  color: #373d48;
+  margin: 20px 0;
+  padding: 3px 0;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.make p {
+  color: #6d7986;
+}
+
+.make h3 {
+  color: #373d48;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.make a {
+  text-decoration: none;
+  color: #cb3837;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.block {
+  margin-top: 5%;
+}
+
+
+
